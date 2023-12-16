@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ptdelights:olive_bag"
+    }
+  ],
+  "result": {
+    "item": "ptdelights:olives",
+    "count": 9
+  }
+}

@@ -29,19 +29,45 @@ public class ModItems {
             () -> new BowlFoodItem(new Item.Properties().tab(ModCreativeModeTab.PTDELIGHTS_TAB)
                     .food(ModFoods.FRANCESINHA)));
 
+    public static final RegistryObject<Item> BIFANA = ITEMS.register("bifana",
+            () -> new BowlFoodItem(new Item.Properties().tab(ModCreativeModeTab.PTDELIGHTS_TAB)
+                    .food(ModFoods.BIFANA)));
+
+    public static final RegistryObject<Item> CHORIZO = ITEMS.register("chorizo",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PTDELIGHTS_TAB)
+                    .food(ModFoods.CHORIZO)));
 
     public static final RegistryObject<Item> SARDINE = ITEMS.register("sardine",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PTDELIGHTS_TAB)
                     .food(ModFoods.SARDINE)));
 
+    public static final RegistryObject<Item> CALDO_VERDE = ITEMS.register("caldo_verde",
+            () -> new BowlFoodItem(new Item.Properties().tab(ModCreativeModeTab.PTDELIGHTS_TAB)
+                    .food(ModFoods.CALDO_VERDE)));
 
     public static final RegistryObject<Item> COOKED_SARDINE = ITEMS.register("cooked_sardine",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PTDELIGHTS_TAB)
                     .food(ModFoods.COOKED_SARDINE)));
 
+    public static final RegistryObject<Item> TART_CRUST = ITEMS.register("tart_crust",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PTDELIGHTS_TAB)
+                    .food(ModFoods.TART_CRUST)));
+
+    public static final RegistryObject<Item> BELEM_TART = ITEMS.register("belem_tart",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PTDELIGHTS_TAB)
+                    .food(ModFoods.BELEM_TART)));
+
     public static final RegistryObject<Item> TRIPES = ITEMS.register("tripes",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PTDELIGHTS_TAB)
                     .food(ModFoods.TRIPES)));
+
+    public static final RegistryObject<Item> COOKED_PIGLET = ITEMS.register("cooked_piglet",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PTDELIGHTS_TAB)
+                    .food(ModFoods.COOKED_PIGLET)));
+
+    public static final RegistryObject<Item> LEITAO = ITEMS.register("leitao",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PTDELIGHTS_TAB)
+                    .food(ModFoods.LEITAO)));
 
     public static final RegistryObject<Item> DEAD_PIGLET = ITEMS.register("dead_piglet",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PTDELIGHTS_TAB)));

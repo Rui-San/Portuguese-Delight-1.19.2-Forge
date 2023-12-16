@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "ptdelights:cooked_piglet"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "ptdelights:leitao"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

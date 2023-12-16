@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "ptdelights:olive_oil"
+    },
+    {
+      "item": "ptdelights:chorizo"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "tag": "forge:salad_ingredients"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "ptdelights:caldo_verde"
+  }
+}

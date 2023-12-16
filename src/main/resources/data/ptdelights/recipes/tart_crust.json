@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": {
+      "tag": "forge:milk"
+    },
+    "w": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    " M ",
+    " w "
+  ],
+  "result": {
+    "item": "ptdelights:tart_crust"
+  }
+}
